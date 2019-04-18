@@ -1,0 +1,5 @@
+.blockBorder{
+  box-shadow: 0 0 1px 1px #cfcfcf;
+  margin: 5px;
+  border-radius: 5px
+}

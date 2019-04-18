@@ -1,0 +1,65 @@
+{
+  "name": "rpgpass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpackConfig/develop.js",
+    "build": "webpack --config ./webpackConfig/prod.js"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "author": "neffes",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/plugin-proposal-class-properties": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "@babel/preset-react": "7.0.0",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.5",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "eslint": "5.15.3",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "npm-install-webpack-plugin": "4.0.5",
+    "sass-loader": "7.1.0",
+    "webpack": "4.29.6",
+    "webpack-bundle-analyzer": "3.1.0",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-middleware": "3.6.1",
+    "webpack-dev-server": "3.2.1",
+    "webpack-hot-middleware": "2.24.3",
+    "css-loader": "2.1.1",
+    "style-loader": "0.23.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "autoprefixer": "9.5.0",
+    "babel-polyfill": "6.26.0",
+    "history": "4.9.0",
+    "postcss-loader": "3.0.0",
+    "prop-types": "15.7.2",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-list": "^0.8.11",
+    "react-redux": "6.0.1",
+    "react-router-dom": "5.0.0",
+    "react-router-redux": "4.0.8",
+    "react-routes": "0.2.6",
+    "redux-logger": "3.0.6",
+    "redux-saga": "1.0.2"
+  }
+}
